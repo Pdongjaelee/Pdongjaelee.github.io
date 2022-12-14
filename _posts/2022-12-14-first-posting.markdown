@@ -1,6 +1,8 @@
 ---
 layout: single
 title : "git 블로그 만들기"
+categories: coding
+tag: [java, blog, jekyll]
 ---
 
 # 호우~
