@@ -64,6 +64,7 @@ algolia:
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
+naver_site_verification  : "900f5c6ab1ab1cb05df3f183bb57b071382ca3b0"
 
 # Social Sharing
 twitter:
