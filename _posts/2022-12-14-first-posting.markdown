@@ -4,7 +4,10 @@ title : "git 블로그 만들기"
 categories: coding
 tag: [java, blog, jekyll]
 toc: true
-author_profile: true
+author_profile: false
+sidebar:
+    nav: "docs"
+search: true        
 ---
 
 # 호우~
