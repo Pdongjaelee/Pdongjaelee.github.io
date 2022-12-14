@@ -4,6 +4,7 @@ title : "git 블로그 만들기"
 categories: coding
 tag: [java, blog, jekyll]
 toc: true
+author_profile: true
 ---
 
 # 호우~
