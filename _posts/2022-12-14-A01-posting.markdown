@@ -4,6 +4,7 @@ title : "알고리즘 1장"
 categories: a
 tag: java
 toc: true
+author_profile: true
 ---
 
 
