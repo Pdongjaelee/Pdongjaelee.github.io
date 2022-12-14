@@ -1,7 +1,7 @@
 ---
 layout: single
-title : "알고리즘 1장"
-categories: a
+title : "알고리즘이란"
+categories: 알고리즘 입문
 tag: java
 toc: true
 author_profile: true
