@@ -2,15 +2,38 @@
 layout: single
 title : "알고리즘이란"
 categories: 알고리즘 입문
-tag: java
+tag: [java, Algorithm]
 toc: true
 author_profile: true
 ---
 
+# 알고리즘이란?
+
+//세 값의 최댓값 구하기
+
+``` java
+package main.java;
+import java.util.Scanner;
 
 
+// 3개의 정숫값을 입력하고 최댓값을 구하여 출력
+public class A01 {
+    public static void main(String[] args) {
+        Scanner stdIn = new Scanner(System.in);
 
+        System.out.println("세 정수의 최댓값을 구합니다.");
+        System.out.println("a의 값: 1"); int a = stdIn.nextInt();
+        System.out.println("b의 값: 3"); int b = stdIn.nextInt();
+        System.out.println("c의 값: 2"); int c = stdIn.nextInt();
+        int max = a;
+        if (b > max) max = b;
+        if (c > max) max = c;
 
+        System.out.println("최댓값은 " + max + "입니다.");
+    }
+}
+
+```
 
 
 
