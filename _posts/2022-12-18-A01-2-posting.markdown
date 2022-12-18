@@ -1,0 +1,34 @@
+---
+layout: single
+title : "알고리즘이란 실습1-2"
+categories: 알고리즘 입문
+tag: [java, Algorithm]
+toc: true
+author_profile: true
+---
+
+# 알고리즘이란?
+
+// 3개의 정숫값 가운데 최댓값을 구하여 출력
+
+``` java
+package main.java;
+import java.util.Scanner;
+
+
+// 3개의 정숫값을 입력하고 최댓값을 구하여 출력
+public class Max3Method {
+    static int max3(int a, int b, int c) {
+        int max = a; //최솟값
+        if (b > max)
+            max = b;
+        if (c > max)
+            max = c;
+
+        return max; //구한 최댓값을 호출한 곳으로 반환합니다.
+}
+
+```
+
+
+
